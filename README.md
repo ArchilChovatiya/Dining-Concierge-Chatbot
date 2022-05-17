@@ -16,10 +16,9 @@ http://s3-chat-bot-ac9137.s3-website-us-east-1.amazonaws.com/
 4. Amazon SQS - to store user requests on a first-come bases
 5. ElasticSearch Service - To quickly get restaurant ids based on the user preferences of cuisine collected from SQS
 6. DynamoDB - To store the restaurant data collected using Yelp API
-7. Amazon SNS - to send restaurant suggestions to users through SMS
+7. Amazon SES - to send restaurant suggestions to users through emails
 8. Lambda - To send data from the frontend to API and API to Lex, validation, collecting restaurant data, sending suggestions using SNS.
 9. Yelp API - To get suggestions for food
-10. AWS Congito - For authentication
 
 ## Chat Architecture Diagram
 
