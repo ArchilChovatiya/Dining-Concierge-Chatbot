@@ -4,9 +4,6 @@ This is a serverless, micro service-driven web application created completely us
 
 We have support for Yelp-API with suggestions and real time chat.
 
-# Chatbot-Url
-
-http://s3-chat-bot-ac9137.s3-website-us-east-1.amazonaws.com/
 
 ## Services Used
 
